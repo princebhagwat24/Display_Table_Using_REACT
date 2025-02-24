@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+/* Dark theme for the entire page */
+.dark-theme {
+  background-color: #121212;  /* Dark background */
+  color: white;  /* Light text color */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table Styling */
+.event-table {
+  border-collapse: collapse;
+  width: 80%; /* Adjust width as needed */
+  background-color: #1e1e1e; /* Dark table background */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.event-table th, .event-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.event-table th {
+  background-color: #333; /* Dark gray background for header */
+  color: #ddd; /* Lighter color for the header text */
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #333; /* Dark rows for even rows */
+}
+
+.event-table tr:nth-child(odd) {
+  background-color: #444; /* Slightly lighter rows for odd rows */
+}
+
+.event-table tr:hover {
+  background-color: #555; /* Hover effect on rows */
+}
+
+.event-table td {
+  color: #bbb; /* Light color for text */
+}
+
